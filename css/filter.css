@@ -1,0 +1,34 @@
+.gfr-filterWidget {
+	display: table;
+	/* width: 100%; */
+}
+
+.gfr-filterWidget-field {
+	display: table-cell;
+	margin: 2px 4px 2px 0 !important;
+	/* width: 1px; */
+}
+
+.gfr-filterWidget-widget {
+	display: table-cell;
+	margin: 2px;
+	white-space: nowrap;
+	/* width: 100%; */
+}
+
+.gfr-filterWidget-widget-logOp {
+	margin-left: 20px;
+	display: block !important;
+}
+
+.gfr-stringFilter {
+	display: table;
+}
+
+.gfr-stringFilter > SELECT {
+	margin-right: 4px;
+}
+
+.gfr-stringFilter > * {
+	display: table-cell;
+}

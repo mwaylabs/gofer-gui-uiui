@@ -1,0 +1,124 @@
+.gwt-StackPanel {
+	width: 100%;
+	margin-top: 6px;
+}
+
+
+
+.gwt-HorizontalSplitPanel .hsplitter {
+	cursor: e-resize;
+	margin: 0px 4px;
+	width: 4px;
+	background-color: #F0F0F0;
+}
+
+.gwt-HorizontalSplitPanel .hsplitter:HOVER {
+	background-color: #E0E0E0;
+}
+
+.gwt-Tree TABLE TD {
+	white-space: nowrap;
+}
+
+.gwt-Tree .gwt-TreeItem {
+	cursor: pointer;
+}
+
+.gwt-Tree .gwt-TreeItem .gwt-Label{
+	cursor: pointer;
+	padding: 3px 4px 4px 4px;
+}
+
+
+.gwt-Tree .gwt-TreeItem-selected {
+	background-color: #2A99F3;
+	color: white;
+	text-shadow: 0px -1px 0px #1A4365;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.gwt-Tree .gwt-TreeItem-selected .gwt-Label {
+	background-color: #2A99F3;
+	color: white;
+	text-shadow: 0px -1px 0px #1A4365;
+	border-radius: 5px;
+	padding: 4px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+
+.gfr-formTable .group {
+	background-image: URL(../img/dialog-top.png);
+	color: #000000;
+	font-weight: bold;
+	padding: 2px 2px;
+}
+
+.gfr-formTable .group div {
+	display: inline;
+	margin: 0px 2px;
+}
+
+.gfr-formTable .group img {
+	margin: 0px 2px;
+}
+
+
+
+.gwt-DisclosurePanel .header, .gfr-formTable .group  {
+	line-height: 20px;
+	background-image: url("../img/button_normal.png");
+	color: white;
+	text-shadow: 0px -1px 0px #1A4365;
+	font-weight: bold;
+}
+
+.gwt-CollapsiblePanel {
+
+}
+
+.gwt-CollapsiblePanel .hover-bar {
+	height: 100%;
+	width: 20px;
+	background-color: #E0E0E0;
+}
+
+.gwt-CollapsiblePanel .container {
+	z-index: 4;
+	background-color: white;
+}
+
+.gwt-Label SPAN {
+	color: #4040ff;
+}
+
+.gwt-SplitLayoutPanel-HDragger, .gwt-SplitLayoutPanel-VDragger {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAN1wAADdcBQiibeAAAAAd0SU1FB9wECw0kHGaYeY8AAAAkSURBVDjLY2AYVODMmTP1Z86cqSdbMzY2IcA0eLwwCkbBgAIApqIRVYN7C7sAAAAASUVORK5CYII=");
+}
+
+.gwt-SplitLayoutPanel-HDragger {
+	cursor: col-resize;
+}
+
+.gwt-SplitLayoutPanel-HDragger:HOVER {
+	background-color: #f0f0f0;
+}
+
+.gwt-SplitLayoutPanel-VDragger {
+	cursor: row-resize;
+}
+
+.gwt-SplitLayoutPanel-VDragger:HOVER {
+	background-color: #f0f0f0;
+}
+
+.gfr-bigPaddingTreeItemDiv .gwt-TreeItem {
+	padding: 4px 4px;
+}
+
+.centered-widget {
+	margin: auto;
+}

@@ -1,0 +1,54 @@
+.gwt-DialogBox {
+	z-index: 10;
+	
+	box-shadow: 5px 5px 5px #606060;
+	-moz-box-shadow: 5px 5px 5px #606060;
+	-webkit-box-shadow: 5px 5px 5px #606060;
+	
+	background-color: #ffffff;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #404143;
+}
+
+
+.gwt-DialogBox .Caption {
+	padding: 10px 15px;
+	font-weight: bold;
+	background-image: URL(../img/dialog-titlebar.png);
+	background-color:#1585e1;
+	font-size:16px;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	background-repeat: repeat-x;
+	/* round corners for background to not to overflow */
+	border-radius-topleft: 6px;
+	border-radius-topright: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	cursor: move;
+	color: #ffffff;
+	text-shadow: 0px -1px #1a4365;
+}
+
+/* we don't want your decoration */
+.dialogTopLeft, .dialogTopRight, .dialogMiddleLeft, .dialogMiddleRight, .dialogBottom {
+	display: none;
+}
+
+.dialogContent {
+    margin: 8px;
+}
+
+.dialogContent TABLE.gfr-button-panel
+{
+	margin: 8px 0;
+	width:100%;	
+}
+.dialogContent TABLE.gfr-button-panel td
+{
+	text-align:center;	
+}

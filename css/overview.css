@@ -1,0 +1,41 @@
+/* === overview === */
+
+.gfr-overview-table {
+	text-align: left;
+	display: table;
+	width: 100%;
+}
+	
+.gfr-overview-section-links {
+	display: table-cell;
+	vertical-align: top;
+	padding: 15px 5px;
+	width: 1px;
+}
+
+.gfr-overview-section-links A {
+	display: block;
+	white-space: nowrap;
+	padding-bottom: 5px;
+}
+
+.gfr-overview-section {
+	display: table-row;
+}
+
+.gfr-overview-section-content {
+	display: table-cell;
+	padding: 15px 5px;
+}
+
+.gfr-overview-section-content P {
+	margin: 0;
+}
+
+.gfr-overview-table > .gfr-overview-section:nth-child(even) {
+	background-color: #F6F6F6;
+}
+
+.gfr-overview-table > .gfr-overview-section:nth-child(odd) {
+	background-color: #FFFFFF;
+}

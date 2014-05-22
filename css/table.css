@@ -1,0 +1,171 @@
+.gfr-decorator-panel {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius:6px;
+	border: 1px solid #A5A5A5;
+	margin: 2px;
+	padding:4px;
+	color: #333333;
+	text-shadow: 0px 1px 0px #ffffff;
+	overflow:hidden;
+}
+
+.gfr-table-buttonBar {
+	float: right;
+	line-height: 26px;
+	/* this was if button linebreaking occurs, but it also causes ugly gap: margin-bottom: 4px; */
+}
+
+.gfr-table-buttonBar > * {
+	display: inline-block;
+	margin-left: 4px;
+	vertical-align: middle;
+}
+
+/* === table === */
+
+.gfr-formTable .gwt-TextBox, .gfr-formTable .gfr-multivalueTable, .gfr-formTable .gwt-TextArea, .gfr-formTable .gwt-SuggestBox, .gfr-formTable .gwt-PasswordTextBox {
+	width: 100%;
+}
+
+
+TABLE.gfr-formTable > TBODY > TR > TD {
+	vertical-align: top;
+	padding: 1px;
+}
+
+
+TABLE.gfr-list-table, TABLE.gfr-property-table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+TABLE.gfr-list-table > TBODY > TR > TD, TABLE.gfr-property-table > TBODY > TR > TD {
+	vertical-align: baseline;
+	padding: 6px;
+}
+
+TABLE.gfr-list-table > TBODY > TR > TD > .gfr-multienum, TABLE.gfr-property-table > TBODY > TR > TD > .gfr-multienum {
+	display: block;
+	margin: -3px;
+	vertical-align: top;
+}
+
+TABLE.gfr-list-table .gfr-row-header, TABLE.gfr-property-table .gfr-row-header {
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+TD.gfr-sort-label {
+	white-space: nowrap;
+}
+
+TABLE.gfr-list-table TD.gfr-sort-arrow {
+	padding-left: 4px;
+}
+
+.gfr-row-odd-selected, .gfr-row-even-selected, .gfr-row-odd-unselected, .gfr-row-even-unselected, .gfr-col-sortable {
+	cursor: pointer;
+}
+
+.gfr-row-odd-selected, .gfr-row-even-selected {
+	background-color: #2A99F3;
+	color: white;
+	text-shadow: 0px -1px 0px #1A4365;
+}
+
+.gfr-row-even, .gfr-row-even-unselected, .gfr-row-header {
+	background-color: #F6F6F6;
+}
+
+.gfr-row-odd, .gfr-row-odd-unselected, .gfr-row-odd .gfr-row-header, .gfr-row-odd-unselected .gfr-row-header {
+	background-color: #FFFFFF;
+}
+
+.gfr-sort-header-grid IMG {
+	margin-left: 4px;
+}
+
+TD.gfr-next-column {
+	border-left: 1px solid #a5a5a5;
+}
+
+TD.gfr-next-row {
+	border-top: 1px solid #a5a5a5;
+}
+
+.gfr-table-header {
+	border-bottom: 1px solid #a5a5a5;
+	margin-bottom: 4px;
+	overflow: hidden;
+}
+
+TABLE .gfr-table-header {
+	border-bottom: 2px solid #a5a5a5;
+	margin-bottom: 0;
+	overflow: hidden;
+}
+
+.gfr-table-footer {
+	margin-top: 4px;
+	margin-bottom:5px;
+	overflow: hidden;
+}
+
+.gfr-table-footer .gfr-pager {
+	text-align:center;
+	color:#666666;
+}
+
+TABLE.gfr-table-footer TD {
+	padding: 5px 0px 0px 5px;
+}
+
+.gfr-table-header-title {
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 8px;
+	line-height: 35px;
+}
+
+.gfr-table-hourglass {
+	margin: 0 4px;
+}
+
+A.header {
+	text-decoration: none;
+}
+
+/* === multivalue === */
+
+
+TABLE.gfr-multivalueTable {
+	border: 1px solid #808080;
+	background-color: #f0f0f0;
+	padding: 2px;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-spacing: 0px;
+}
+
+TABLE.gfr-multivalueTable > TBODY > TR:nth-child(odd) {
+	background-color: #f0f0f0;
+}
+
+TABLE.gfr-multivalueTable > TBODY > TR:nth-child(even) {
+	background-color: #e0e0e0;
+}
+
+TABLE.gfr-multivalueTable TABLE.gfr-multivalueTable {
+	box-shadow: 3px 3px 3px #a0a0a0;
+	margin: 0 5px 5px 0;
+}
+
+TABLE.gfr-multivalueTable > TBODY > TR > TD, TABLE.gfr-multivalueTable > TBODY > TR > TH {
+	background-color: transparent;
+	padding: 3px;
+	vertical-align: top;
+}
+

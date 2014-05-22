@@ -1,0 +1,50 @@
+.gfr-inherited-logger-level,.gfr-inherited-logger-appender {
+	font-style: italic;
+	color: #808080;
+}
+
+.gfr-more-label { /* width and height is computed */
+	border: 1px inset #8080e0;
+	background-color: white;
+	font-family: monospace;
+}
+
+.gfr-LogLevel-0 { /* ALL */
+	color: #808080;
+	font-weight: bold;
+}
+
+.gfr-LogLevel-1 { /* TRACE */
+	color: #a0a0a0;
+	font-weight: bold;
+}
+
+.gfr-LogLevel-2 { /* DEBUG */
+	color: #8080FF;
+	font-weight: bold;
+}
+
+.gfr-LogLevel-3 { /* INFO */
+	color: #00e000;
+	font-weight: bold;
+}
+
+.gfr-LogLevel-4 { /* WARN */
+	color: #E0C020;
+	font-weight: bold;
+}
+
+.gfr-LogLevel-5 { /* ERROR */
+	color: #ff0000;
+	font-weight: bold;
+}
+
+.gfr-LogLevel-6 { /* FATAL */
+	color: #e00060;
+	font-weight: bold;
+}
+
+.gfr-LogLevel-7 { /* ALL */
+	color: #000000;
+	font-weight: bold;
+}

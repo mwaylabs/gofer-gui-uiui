@@ -1,0 +1,9 @@
+.gfr-pager > * {
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 4px;
+}
+
+.gfr-pager > *:first-child {
+	margin-left: 0;
+}

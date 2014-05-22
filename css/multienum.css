@@ -1,0 +1,52 @@
+DIV.gfr-MultiEnumWidget-select {
+	color: blue;
+	cursor: pointer;
+	display: inline;
+}
+
+DIV.gfr-MultiEnumWidget-select:HOVER {
+	text-decoration: underline;
+}
+
+.gfr-MultiEnumWidget-item {
+	display: inline;
+}
+
+TABLE.gfr-checkListPanel TD {
+	vertical-align: top;
+}
+
+.gfr-multienum {
+	display: inline;
+	text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.gfr-multienum-undefined {
+	font-style: italic;
+	color: #a0a0a0;
+}
+
+.gfr-multienum-none {
+	font-style: italic;
+	color: #a0a0a0;
+}
+
+.gfr-multienum-even, .gfr-multienum-odd {
+	padding: 3px 6px;
+	margin: 3px;
+	/*border: 2px solid white;*/
+	display: inline-block;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	color: #000000;
+	whitespace: nowrap;
+}
+
+.gfr-multienum-even {
+	background-color: #e0e0e0;
+}
+
+.gfr-multienum-odd {
+	background-color: #c8c8c8;
+}

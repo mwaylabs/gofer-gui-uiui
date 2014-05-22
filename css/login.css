@@ -1,0 +1,7 @@
+TABLE.gfr-login-grid > TBODY > TR > TD {
+	padding: 2px 0px;
+}
+
+TABLE.gfr-login-grid > TBODY > TR > TD > INPUT {
+	margin-left: 4px;
+}

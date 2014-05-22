@@ -1,0 +1,21 @@
+TABLE.gfr-cronbar-widget {
+	background-color: #d9d9ff;
+	border: 1px solid #8080e0;
+	padding: 10px;
+}
+
+TABLE.gfr-cronbar-widget > TBODY > TR > TD {
+	padding: 0px 4px 4px 0px;
+}
+
+TABLE.gfr-cronbar-standalone {
+	padding: 10px;
+}
+
+TABLE.gfr-cronbar-standalone > TBODY > TR > TD {
+	padding: 0px 4px 4px 0px;
+}
+
+TABLE.gfr-cronbar-inner > TBODY > TR > TD {
+	padding-bottom: 10px;
+}

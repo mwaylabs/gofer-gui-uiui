@@ -1,0 +1,15 @@
+/* === CREATE FREE ACCOUNT === */
+.gfr-account-info {
+	background-color: #E7E3E7;
+	margin: 30px 0px 20px 0px;
+}
+
+.gfr-captcha-image {
+	width: 350px;
+	height: 70px;
+	border: 1px solid black;
+}
+
+.gfr-captcha-explanation {
+	font-size: 80%;
+}

@@ -1,0 +1,86 @@
+* {
+	font-family: sans-serif;
+	font-size: 13px;
+}
+
+TABLE {
+	empty-cells: show;
+}
+
+TD {
+	padding: 0;
+}
+
+
+/*
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+*/
+
+body {
+	background-color: white;
+	padding: 0;
+	margin: 0;
+}
+img.GIAT4POPJ
+{
+	margin-left:-10px;	
+}
+
+form {
+	padding: 0;
+	margin: 0;
+}
+
+a, a * {
+	color: #1282DD;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover, a:hover * {
+	text-decoration: underline;
+}
+.gfr-row-odd-selected a, .gfr-row-even-selected a,
+.gfr-row-odd-selected a *, .gfr-row-even-selected a * {
+	color: white;
+	text-shadow: 0px -1px 0px #1A4365;
+}
+
+iframe {
+	border: 0;
+}
+
+
+.tooltip-label {
+	margin: 0;
+	padding: 0;
+}
+
+.tooltip-label > .gwt-Label:after {
+	content: url("../img/help.gif");
+	cursor: help;
+	margin-left: 4px;
+}
+
+.tooltip-label > .gwt-HTML {
+	position: absolute;
+	display: none;
+
+	padding: 4px 8px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    z-index: 200;
+    box-shadow: 5px 5px 5px #808080;
+	-moz-box-shadow: 5px 5px 5px #808080;
+	-webkit-box-shadow: 5px 5px 5px #808080;
+	
+	color: black;
+	border: 1px solid #a0a080;
+	background-color: #ffffc0;
+	text-shadow: none;
+	cursor: auto;
+}

@@ -1,0 +1,64 @@
+@import url("chart.css");
+div{
+    display: none;
+}
+.gfr-workspace {
+    padding: 2px;
+}
+
+.gfr-whitescroll {
+    background-color: white;
+    border: 1px inset #8080e0;
+}
+
+
+.gwt-PopupPanelGlass {
+    background-color: black;
+    filter: alpha(opacity=50);
+    opacity: .50;
+    z-index: 10;
+}
+
+.gfr-header-bar {
+    background-image: linear-gradient(bottom, #000000 0%, #4a4a4a 100%);
+    background-image: -o-linear-gradient(bottom, #000000 0%, #4a4a4a 100%);
+    background-image: -moz-linear-gradient(bottom, #000000 0%, #4a4a4a 100%);
+    background-image: -webkit-linear-gradient(bottom, #000000 0%, #4a4a4a 100%);
+    background-image: -ms-linear-gradient(bottom, #000000 0%, #4a4a4a 100%);
+
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #A5A5A5;
+    overflow: hidden;
+
+    margin: 2px;
+    min-height: 66px;
+}
+
+.gfr-footer-bar {
+    color: #A5A5A5;
+    padding: 0 4px;
+}
+
+.gfr-logout-link {
+    float: right;
+    margin: 25px 13px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.gfr-title-bar {
+    position: relative;
+}
+
+
+.gfr-logo {
+    margin: 12px 20px 0 10px;
+    float: left;
+}
+
+.gfr-work-area {
+    margin: 2px 0;
+}

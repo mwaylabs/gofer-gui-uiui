@@ -1,0 +1,119 @@
+.gfr-label-error {
+	color: red;
+}
+
+.gfr-field-error {
+	background-color: #ffa0a0;
+}
+
+.gfr-error-message {
+	color: red;
+	background-color: transparent;
+	white-space: pre;
+}
+
+.gfr-form-label {
+	margin: 2px 6px 2px 2px;
+}
+
+.gfr-form-label[title] {
+	cursor: help;
+}
+
+.gfr-form-bordered-label {
+    background-color: #E0E0E0;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    color: black;
+    padding: 4px 4px;
+}
+
+.gfr-form-label[title]:after {
+	cursor: help;
+	content: url(../img/help.gif);
+	margin-left: 4px;
+}
+
+.gfr-mandatory-label { /* empty = "" */
+	/* user doesn't need to know: font-style: italic; */
+	font-weight: bold;
+}
+
+.gfr-mandatoryNotEmpty-label { /* empty = ERROR */
+	font-weight: bold;
+}
+
+.gfr-notEmpty-label { /* empty = null */
+}
+
+.gfr-any-label { /* switchable widget */
+}
+
+.gfr-form-decorator-panel {
+	border-bottom: 1px solid #A5A5A5;
+	margin-bottom: 4px;
+}
+
+.gfr-form-decorator-label {
+	margin: 3px 6px;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.gfr-form-decorator-label-description {
+	margin: 3px 12px;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.gfr-form-group {
+	font-weight: bold;
+	margin: 2px 0;
+	padding: 3px 6px;
+	border-bottom: 1px solid #808080;
+	background-image: url(../img/bottom-menu-gradient.png);
+}
+
+
+.gfr-boolean-true, .gfr-boolean-false, .gfr-boolean-null {
+	width: 19px;
+	height: 19px;
+	display: inline-block;
+}
+
+.gfr-boolean-true {
+	background-image: url("../img/icon_true.png");
+}
+
+.gfr-boolean-false {
+	background-image: url("../img/icon_false.png");
+}
+
+/*
+
+.gfr-boolean-true, .gfr-boolean-false, .gfr-boolean-null {
+	display: inline-block;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	border: 1px solid #a0a0a0;
+	padding: 1px 4px;
+	text-shadow: none;
+}
+
+.gfr-boolean-true {
+	color: black;
+	background-color: #ffffff;
+}
+
+.gfr-boolean-false {
+	color: white;
+	background-color: #333333;
+}
+
+.gfr-boolean-null {
+	visibility: hidden;
+}
+*/

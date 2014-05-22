@@ -1,0 +1,16 @@
+.gfr-ProgressBar {
+	border: 1px solid #808080;
+	background-color: #F6F6F6;
+}
+
+.gfr-ProgressBar-left {
+	background-color: #6aafc5;
+}
+
+.gfr-ProgressBar-right {
+	background-color: white;
+}
+
+.gfr-ProgressBar-content {
+	padding: 4px 8px;
+}

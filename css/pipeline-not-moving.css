@@ -1,0 +1,12 @@
+.gfr-PipelineBox, .gfr-pipeline-ei-note {
+	opacity: 0.85;
+	box-shadow: 5px 5px 5px #A0A0A0;
+	-moz-box-shadow: 5px 5px 5px #A0A0A0;
+	-webkit-box-shadow: 5px 5px 5px #A0A0A0;
+}
+
+* {
+	user-select: text !important;
+	-webkit-user-select: text !important;
+	-moz-user-select: text;
+}

@@ -1,0 +1,199 @@
+body .gfr-header-bar{
+	background: none;
+	border: none;
+	min-height: 34px;
+}
+body .gfr-top-menu a {
+	display: inline-block;
+	color: #333333;
+	text-shadow: none;
+	cursor: pointer;
+	padding: 7px 14px;
+	font-weight: normal;
+	text-align: center;
+	
+	background-color: none;
+	background-image: none;
+	
+	border: none;
+	border-right: 1px solid #000000;
+
+    white-space: nowrap;
+	margin-right:0;
+	outline: beige;
+	background: none;
+	border-radius: 0;
+}
+
+body .gfr-logout-link,
+body .gfr-app-menu{
+	margin: 0;
+}
+
+body .gwt-Tree .gwt-TreeItem-selected .gwt-Label,
+body .gfr-top-menu tr td:first-child a:hover,
+body .gfr-top-menu tr td:last-child a:hover,
+body .gfr-top-menu tr td:first-child a,
+body .gfr-top-menu tr td:last-child a{
+	border-radius: 0;
+}
+
+body .gfr-logout-link{
+	color: #000000;
+	font-weight: normal;
+	position: relative;
+	width: 100px;
+	height: 31px;
+}
+
+body .gfr-logout-link img{
+	display: none;
+}
+
+body .gfr-logout-link span{
+	padding: 8px 0 0 0;
+	display: block;
+}
+
+body .gfr-logout-link a{
+	position: absolute;
+	width: 100px;
+	height: 31px;
+	background: none;
+	top: 0;
+	display: block;
+}
+
+body .gfr-logo{
+	display: none;
+}
+
+body .gfr-decorator-panel{
+	border-radius: 0;
+	border: 1px solid #D5D5D5;
+}
+
+body BUTTON.gwt-Button{
+	border-radius: 0;
+	background: rgb(59, 143, 235);
+	border: none;
+	text-shadow: none;
+}
+
+body BUTTON:HOVER.gwt-Button{
+	outline: none;
+}
+
+body BUTTON:ACTIVE.gwt-Button{
+	border: none;
+	outline: none;
+}
+
+body BUTTON[disabled].gwt-Button{
+	background-color: #CCCCCC;
+	background-image: none;
+	color: white;
+	text-shadow: none;
+}
+
+body .gfr-menu-deck table{
+	background: white;
+}
+
+body .gfr-menu-deck table tbody{
+	text-shadow: none;
+	color: black;
+}
+
+body .gfr-menu-panel{
+	border: 1px solid #D5D5D5;
+}
+
+body .gfr-menu-panel a,
+body .gfr-menu-panel .unselected{
+	color: black;
+}
+
+body .gfr-top-menu a:hover.selected,
+body .gfr-top-menu a.hover.unselected,
+body .gfr-top-menu a.selected,
+body .gfr-top-menu a:hover{
+	text-shadow:none;
+	text-decoration:none;
+	background: rgb(59, 143, 235);
+	border-radius: 0;
+	color: white;
+	border-bottom: none;
+}
+
+body TABLE.gfr-multivalueTable,
+body .gwt-TextBox,
+body .gwt-TextArea,
+body .gwt-ListBox,
+body .gwt-SuggestBox,
+body .gwt-PasswordTextBox,
+body .gwt-RichTextArea,
+body .gwt-SuggestBox
+body .gfr-multienum-odd,
+.gfr-multienum-even{
+	border-radius: 0 !important;
+}
+
+body TABLE.gfr-multivalueTable{
+	border: none;
+}
+
+body .gfr-multienum-odd{
+	border-radius: 0 !important;
+}
+
+
+body .gwt-Tree .gwt-TreeItem-selected{
+	border-radius: 0;
+}
+
+
+body tr.gfr-row-header .gfr-next-column,
+body .gfr-col-sortable .gfr-sort-header-grid span{
+	font-weight: normal;
+	text-shadow: none;
+	color: white;
+}
+
+body TABLE.gfr-list-table .gfr-row-header,
+body TABLE.gfr-property-table .gfr-row-header{
+	background: rgb(59, 143, 235);
+	font-weight: normal;
+	text-shadow: none;
+	color: white;
+}
+
+body .gfr-sort-header-grid img{
+	height: 7px;
+}
+
+body .gfr-popupNotification-info{
+	border-radius: 0;
+	box-shadow: none;
+	border: 1px solid rgb(26, 163, 26);
+	background-color: rgb(26, 163, 26);
+	color: white;
+}
+
+body .gfr-popupNotification-error{
+
+	border-radius: 0;
+	box-shadow: none;
+	border: 1px solid #FF4242;
+	background-color: #F84D4D;
+	color: white;
+}
+
+body .gfr-ProgressBar-left{
+	background-color: #CCCCCC;
+}
+
+body .gfr-ProgressBar {
+	border: none;
+	background-color: #F6F6F6;
+}

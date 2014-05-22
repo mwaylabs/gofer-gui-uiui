@@ -1,0 +1,26 @@
+/*ľščťžýáíéúäňô*/
+.gfr-popupNotification-info, .gfr-popupNotification-warning, .gfr-popupNotification-error {
+	padding: 4px 8px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    z-index: 200;
+    box-shadow: 5px 5px 5px #606060;
+	-moz-box-shadow: 5px 5px 5px #606060;
+	-webkit-box-shadow: 5px 5px 5px #606060;
+}
+
+.gfr-popupNotification-info {
+	border: 1px solid #008000;
+	background-color: #c0ffc0;
+}
+
+.gfr-popupNotification-warning {
+	border: 1px solid #808000;
+	background-color: #ffff00;
+}
+
+.gfr-popupNotification-error {
+	border: 1px solid #800000;
+	background-color: #ff8080;
+}

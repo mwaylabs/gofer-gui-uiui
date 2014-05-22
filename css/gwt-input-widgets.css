@@ -1,0 +1,73 @@
+.gwt-ListBox option {
+	-moz-user-select: none;
+}
+
+.gwt-TextBox, .gwt-TextArea, .gwt-ListBox, .gwt-SuggestBox, .gwt-PasswordTextBox, .gwt-RichTextArea, .gwt-SuggestBox{
+	background-image: url(../img/inputbox-background.png);
+	background-repeat: repeat-x;
+	background-position:0px -3px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.gwt-TextBox, .gwt-TextArea, .gwt-ListBox, .gwt-SuggestBox, .gwt-PasswordTextBox, .gwt-FileUpload {
+	padding: 5px 2px;
+	margin: 0;
+}
+
+.gwt-TextBox-null, .gwt-TextArea-null, .gwt-PasswordTextBox-null, .gwt-SuggestBox-null {
+	border: 1px solid #d0d0d0;
+}
+
+.gwt-TextBox-readonly, .gwt-TextArea-readonly, .gwt-ListBox-readonly {
+	color: #606060;
+	background-image: url(../img/inputbox-background-disabled.png) !important;
+	background-color: #ebebeb;
+}
+
+.gwt-SuggestBoxPopup {
+	border: 1px solid #8080e0;
+	background-color: #e6e6ff;
+	z-index: 20;
+}
+
+.gwt-SuggestBoxPopup .item {
+	padding: 0px 2px;
+	cursor: pointer;
+}
+
+.gwt-SuggestBoxPopup .item-selected {
+	background-color: #ccccff;
+}
+
+.gfr-undefinedLabel {
+	color: gray;
+	background-color: #fff;
+	border: 1px inset #d0d0d0;
+	padding: 2px 8px;
+	display: inline-block;
+}
+
+.gfr-nullable-input-2 {
+	display: table;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.gfr-nullable-input-2-button {
+	margin: 0 4px 0 0;
+	display: table-cell;
+	/*vertical-align: top; */
+}
+
+.gfr-nullable-input-2-container {
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}

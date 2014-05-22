@@ -1,0 +1,63 @@
+TABLE.gfr-button-panel {
+	border-collapse: collapse;
+}
+
+TABLE.gfr-button-panel TD {
+	padding: 0px 5px 0px 0px;
+}
+
+TABLE.gfr-toolbar {
+	background-color: #d9d9ff;
+	border: 1px solid #8080e0;
+	width: 100%;
+	margin: 4px 0px;
+}
+
+TABLE.gfr-toolbar BUTTON {
+	margin: 4px 0px 0px 4px;
+}
+
+TABLE.gfr-toolbar > TBODY > TR > TD {
+	padding: 0px 4px 4px 0px;
+}
+
+TABLE.gfr-buttonbar > TBODY > TR > TD {
+	padding-right: 4px;
+}
+
+.gfr-toolbar-button-separator {
+	width: 1px;
+	height: 24px;
+	background-color: #444444;
+}
+
+.gfr-popup-button-panel {
+    background-color: white;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    margin: 4px 0px;
+    padding: 0 4px;
+    -webkit-box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 5;
+}
+
+.gfr-popup-button-panel > * {
+	display: block;
+	margin: 4px 0;
+	width: 100%;
+}
+
+.gfr-segmented-control {
+	float: left;
+	line-height: 26px;
+	/* this was if button linebreaking occurs, but it also causes ugly gap: margin-bottom: 4px; */
+}
+
+.gfr-segmented-control > * {
+	display: inline-block;
+	margin-left: 4px;
+	vertical-align: middle;
+}

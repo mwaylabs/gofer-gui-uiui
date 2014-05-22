@@ -1,0 +1,231 @@
+.gfr-PipelineBox-wrapper {
+	z-index: 4;
+}
+
+.gfr-PipelineBox {
+	background-color: #ffffff;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #404143;
+	display: inline-block;
+	z-index: 5; 
+}
+
+.gfr-pipeline-ei-note {
+	margin-left: 10px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #ffffa0;
+	border: 0;
+	padding: 4px;
+	border: 1px solid #efef90;
+}
+
+* {
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+
+.gfr-PipelineBox .Caption {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	background-repeat: repeat-x;
+	/* round corners for background to not to overflow */
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	cursor: move;
+	background-image: URL(../img/dialog-top.png);
+}
+
+.gfr-PipelineBox .Caption > * {
+	vertical-align: middle;
+	display: inline-block;
+	margin: 4px;
+}
+
+.gfr-watch {
+	margin: 5px 5px auto 5px;
+}
+
+.gfr-argumentPanel {
+	clear: both;
+	width: 100%;
+}
+
+.gfr-PipelineBox .gfr-argumentPanel {
+	width: auto !important;
+}
+
+.gfr-toolsPanel {
+	float: right;
+}
+
+.gfr-toolsPanel * {
+	margin-left: 5px;
+	cursor: default;
+}
+
+.gfr-published-label {
+	/*padding: 0px 4px;*/
+	border: 1px solid #444444;
+	background-color: #d9d9ff;
+	text-align: center;
+	z-index: 2;
+}
+
+.gfr-struct-special-value {
+	color: blue;
+	font-style: italic;
+}
+
+.gfr-entityInstancePanel-caption {
+	position: absolute;
+	top: 6px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.gfr-pipeline-connection-border {
+	color: #C0DFE7;
+	background-color: #457280;
+	border: 2px solid red;
+}
+
+DIV.gfr-ejsp {
+	height: 0px;
+	overflow: visible;
+}
+
+.gfr-exjsp {
+	height: 5px;
+	overflow: visible;
+}
+
+.gfr-junction-entry {
+	position: relative;
+	top: -8px;
+}
+
+.gfr-pipeline-outputs-panel {
+	position: relative;
+	top: -2px;
+}
+
+.gfr-junction-active, .gfr-junction-inactive {
+	cursor: pointer;
+	width: 15px;
+	height: 15px;
+}
+
+.gfr-junction-inactive {
+	background-image: url(../img/junction.png);
+}
+
+.gfr-junction-active {
+	background-image: url(../img/junction-selected.png);
+}
+
+TABLE.gfr-pipeline-outputs-panel > TBODY > TR > TD {
+	background-color: transparent;
+}
+
+.gfr-pipeline-canvas-panel {
+	background-image: url(../img/grid.png);
+	background-repeat: repeat;
+	border: 1px inset #8080e0;
+}
+
+.gfr-microcanvas {
+	/* z-index: -1; */
+}
+
+.gfr-microcanvas-fallback {
+	z-index: -1;
+	border: 1px solid red;
+}
+
+.gfr-pipeline-start {
+	background-image: url(../img/junction-start.png);
+}
+
+.gfr-outputArgument {
+
+}
+
+BUTTON.gfr-piparg-variable {
+
+}
+
+BUTTON.gfr-piparg-constant, BUTTON.gfr-piparg-constant:HOVER {
+	color: #0000ff;
+}
+
+BUTTON.gfr-piparg-variable, BUTTON.gfr-piparg-constant {
+	width: 25px;
+}
+
+.gfr-pipeline-arguments .gwt-TextBox {
+	width: 140px;
+}
+
+.gfr-pipeline-arguments TD {
+	vertical-align: top;
+}
+
+.gfr-startWidget {
+	width: 64px;
+	height: 64px;
+	z-index: 2;
+}
+
+.gfn-pipline-note {
+	background-color: #ffffa0;
+	border: 1px solid #efef90;
+	padding: 4px;
+}
+
+.gfn-pipline-note-caption {
+	background-color: #efef90;
+	padding: 2px 4px;
+	cursor: move;
+	position: relative;
+}
+
+.gfn-pipline-note-caption-label {
+	font-weight: bold;
+}
+
+.gfn-pipline-note-text {
+	padding: 2px 4px;
+	background-color: #ffffa0;
+	border: 0;
+}
+
+.gfn-pipline-note-removeButton {
+	position: absolute;
+	right: 4px;
+	padding: 1px !important;
+	top: 1px;
+}
+
+.gfr-pipeline-ei-dropdown {
+	float: right;
+	cursor: pointer;
+	margin: 5px 6px 6px 0 !important;
+}
+
+.gfr-pipeline-io-label {
+	white-space: nowrap;
+}
+
+.gfr-pipeline-io-label * {
+	display: inline;
+	vertical-align: middle;
+}
+

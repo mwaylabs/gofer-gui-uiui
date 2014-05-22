@@ -1,0 +1,76 @@
+/* --- tabs --- */
+
+TABLE.gwt-TabBar TD {
+	padding: 0;
+}
+
+.gwt-TabBarItem TD.center DIV {
+	line-height: 24px;
+	padding: 0px 8px;
+	white-space: nowrap;
+}
+
+.gwt-TabBarItem DIV {
+	font-weight: bold;
+	height: 24px;
+	cursor: pointer;
+}
+
+.gwt-TabBarItem TABLE {
+	border-collapse: collapse;
+}
+
+
+.gwt-TabBarItem TD.left DIV, .gwt-TabBarItem TD.right DIV {
+	width: 4px;
+}
+
+.gwt-TabBarItem TD.left DIV {
+	background-image: URL(../img/tab_left_inactive.png);
+}
+
+.gwt-TabBarItem TD.center DIV {
+	background-image: URL(../img/tab_center_inactive.png);
+}
+
+.gwt-TabBarItem TD.right DIV {
+	background-image: URL(../img/tab_right_inactive.png);
+}
+
+.gwt-TabBarItem TD.left DIV:HOVER {
+	background-image: URL(../img/tab_left_hover.png);
+}
+
+.gwt-TabBarItem TD.center DIV:HOVER {
+	background-image: URL(../img/tab_center_hover.png);
+}
+
+.gwt-TabBarItem TD.right DIV:HOVER {
+	background-image: URL(../img/tab_right_hover.png);
+}
+
+.gwt-TabBarItem-selected DIV {
+	cursor: default;
+}
+
+.gwt-TabBarItem-selected TD.left DIV, .gwt-TabBarItem-selected TD.left DIV:HOVER {
+	background-image: URL(../img/tab_left_active.png);
+}
+
+.gwt-TabBarItem-selected TD.center DIV, .gwt-TabBarItem-selected TD.center DIV:HOVER {
+	background-image: URL(../img/tab_center_active.png);
+}
+
+.gwt-TabBarItem-selected TD.right DIV, .gwt-TabBarItem-selected TD.right DIV:HOVER {
+	background-image: URL(../img/tab_right_active.png);
+}
+
+
+.gwt-TabBarItem-selected .gwt-Label {
+	color: black;
+	font-weight: bold;
+}
+
+.gwt-TabBarRest, .gwt-TabBarFirst {
+	border-bottom: 1px solid #a5a5a5;
+}

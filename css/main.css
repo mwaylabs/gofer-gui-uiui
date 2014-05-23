@@ -15,6 +15,8 @@ body .gfr-header-bar {
     min-height: 34px;
 }
 
+body a,
+body a *,
 body .gfr-menu-panel a:hover,
 body .gfr-menu-panel a.selected{
     color: #03B7E0;
@@ -248,7 +250,7 @@ body TABLE.gfr-multivalueTable {
     border: 1px solid #D5D5D5;
 }
 
-body .gwt-ListBox {
+body select:not([multiple]).gwt-ListBox {
     font-size: 14px;
     line-height: 20px;
     border: 1px solid #D5D5D5;
@@ -263,6 +265,8 @@ body .gwt-ListBox {
     background-position: 100% 50%, 0 0;
     width: 100%;
 }
+
+
 
 body .gwt-CheckBox input {
     -webkit-appearance: none;
